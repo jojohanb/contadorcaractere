@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px 0 0 0; */
+    /* justify-content: center; */
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(87, 19, 196);
+}
+
+.container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 600px;
+    height: 300px;
+    /* text-align: center; */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+h1{
+    color:rgb(103, 19, 199) ;
+}
+
+textarea{
+    width: 200px;
+}
+
+button{
+    background-color: rgb(99, 25, 218);
+    border: 1px solid black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+
+}

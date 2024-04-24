@@ -3,7 +3,11 @@ const divContador=document.querySelector("[txt-contador]")
 const btnContar=document.querySelector("[btn-contar]")
 
 let modo = "caracteres"
+
 function handleInputTexto(evento){
+    divContador.innerText=`${evento.target.value.length} caracteres`
+    
+
     // console.log(inputTexto.value)
     console.log(evento.target.value) 
 }
